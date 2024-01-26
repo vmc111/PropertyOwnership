@@ -11,6 +11,7 @@ import VerifyUserFields from "../../components/VerifyUser";
 import SellPropertyFields from "../../components/SellProperty";
 import VerifyPropertyFields from "../../components/VerifyProperty";
 import FileInsuranceClaimFields from "../../components/FileInsuranceClaim";
+import GetTransactionHistoryByWallet from "../../components/GetTransactionHistoryByWallet";
 
 interface FieldsViewProps {
   //   department: Department;
@@ -45,6 +46,10 @@ const FieldsView = (props: FieldsViewProps): React.ReactElement => {
       return <VerifyUserFields />;
     case "VIEW_PROPERTIES_WITH_INSURANCE":
       return <></>;
+    case "READ_ALL_PROPERTIES":
+      return <></>;
+    case "GET_TRANSACTION_HISTORY_BY_PROPERTY":
+      return <GetTransactionHistoryByWallet />;
   }
 };
 
