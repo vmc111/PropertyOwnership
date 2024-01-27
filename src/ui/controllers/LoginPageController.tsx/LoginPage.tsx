@@ -95,9 +95,9 @@ const LoginPage = (): React.ReactElement => {
   );
 
   return (
-    <div className="flex overflow-hidden gap-10 justify-center items-center bg-gradient-to-r from-cyan-500 to-blue-500 h-screen w-full">
+    <div className="flex overflow-hidden gap-10 justify-center items-center bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% h-screen w-full">
       <div className="flex flex-col overflow-hidden">
-        <h1 className="text-center text-4xl text-gray-800 font-semibold truncate">
+        <h1 className="text-center text-5xl text-gray-800 font-semibold truncate">
           <pre>Fractional Property</pre>
           Ownership Platform
         </h1>

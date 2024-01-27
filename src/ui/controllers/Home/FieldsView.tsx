@@ -12,6 +12,7 @@ import SellPropertyFields from "../../components/SellProperty";
 import VerifyPropertyFields from "../../components/VerifyProperty";
 import FileInsuranceClaimFields from "../../components/FileInsuranceClaim";
 import GetTransactionHistoryByWallet from "../../components/GetTransactionHistoryByWallet";
+import ReadAllProperties from "../../components/ReadAllProperties";
 
 interface FieldsViewProps {
   //   department: Department;
@@ -47,7 +48,7 @@ const FieldsView = (props: FieldsViewProps): React.ReactElement => {
     case "VIEW_PROPERTIES_WITH_INSURANCE":
       return <></>;
     case "READ_ALL_PROPERTIES":
-      return <></>;
+      return <ReadAllProperties />;
     case "GET_TRANSACTION_HISTORY_BY_PROPERTY":
       return <GetTransactionHistoryByWallet />;
   }
